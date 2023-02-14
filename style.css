@@ -1,0 +1,50 @@
+.gallery{
+    background-color:skyblue;
+    width:660px;
+    height:660px;
+    border-radius:10px;
+    margin-top:100px;
+    margin-left:300px;   
+    grid-template-columns: repeat(3, 1fr);
+}
+.planecard{
+    width:200px;
+    height:200px;
+    margin:2px;
+}
+.gallery-extended{
+    display:none;
+    width:660px;
+    height:660px;
+    margin-top:100px;
+    margin-left:300px;
+    border-radius:10px;
+    background-color: rgba(157, 226, 226,4);
+}
+.grid{
+    display:grid;
+}
+.block{
+    display:block;
+}
+.none{
+    display:none;
+}
+.cross{
+    font-size: 30px;
+    color:green;
+    margin-left:620px;
+    margin-top:10px;
+}
+.main-photo{
+    width:600px;
+    height:400px;
+    margin-left:30px;
+}
+.bottom-gallery{
+    display:flex;
+    width:630;
+    height:200;
+    margin-left:30px;
+}
+
